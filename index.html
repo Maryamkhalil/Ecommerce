@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ecommerce Security System</title>
+  </head>
+  <body>
+    <div id="app">
+      <template>
+        <div class="vue-tempalte">
+            <form>
+                <h3>Sign In</h3>
+    
+                <div class="form-group">
+                    <label>Users Limit</label>
+                    <input type="email" class="form-control form-control-lg" />
+                </div>
+    
+                <div class="form-group">
+                    <label><transition-group>
+                    
+                    </transition-group></label>
+                    <input type="<transition-group>
+                    
+                    </transition-group>" class="form-control form-control-lg" />
+                </div>
+    
+                <button type="submit" class="btn btn-dark btn-lg btn-block">Sign In</button>
+    
+                <p class="Sales text-right mt-2 mb-4">
+                    <router-link to="/forgot-password">Forgot password ?</router-link>
+                </p>
+    
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-google"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+    
+            </form>
+        </div>
+    </template>
+    
+    <script>
+        export default {
+            data() {
+                return {}
+            }
+        }
+// Install as plugin
+import Vue from 'vue'
+import {FingerprintsPlugin} from 'vue-fingerprints'
+Vue.use(FingerprintsPlugin)
+ 
+// Or import in template
+import Fingerprints from 'vue-fingerprints'
+export default {
+  components: {
+    Fingerprints
+  },
+  ...
+};
+
+
+
+$name= $_SESSION['loginas'];
+				
+
+
+Switch($name)
+{
+Case 'admin'	echo ("<SCRIPT LANGUAGE='JavaScript'>
+        	window.location.href='Admindashboard.vue';
+            </SCRIPT>");
+Case'lman':
+	echo ("<SCRIPT LANGUAGE='JavaScript'>
+        	window.location.href='Supervisordashboard.vue';
+            </SCRIPT>");
+Case 'emp':
+
+	echo ("<SCRIPT LANGUAGE='JavaScript'>
+        	window.location.href='Supervisordashboard.vue';
+            </SCRIPT>");
+}
+
+  
+
+    </script>
+    Markup
+
+
+
+    welcome to user login 
+    <template>
+        <div id="login">
+            <h1>Login</h1>
+            <input type="text" name="username" v-model="input.username" placeholder="Username" />
+            <input type="password" name="password" v-model="input.password" placeholder="Password" />
+            <button type="button" v-on:click="login()">Login</button>
+        </div>
+    </template>
+
+
+
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+
+
+
+
+
+</html>
